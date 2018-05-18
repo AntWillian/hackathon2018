@@ -1,0 +1,25 @@
+.titulo_modal{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+    margin-bottom: 5px;
+    border-bottom: solid 2px #000000;
+}
+
+.texto_modal{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.imagem_modal{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}

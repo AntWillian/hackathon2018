@@ -1,0 +1,107 @@
+/*formatação da tela de cursos fic*/
+.titulo_upload{
+    text-align: center;
+}
+.centralizar_form_fic{
+    width: 45%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.centralizar{
+    width: 85%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.file_fic{
+    width: 350px;
+    height: 30px;
+    float: left;
+}
+
+.input_fic{
+    width: 150px;
+    height: 30px;
+    float: left;
+}
+
+.contents_fic{
+    width: 100%;
+    height: 45%;
+    background-color: gray;
+}
+
+.linha_titulos_fic{
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+}
+
+.caixas_titulos_fic{
+    width: 155px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 800;
+/*    background-color: fuchsia;*/
+}
+
+.caixas_maior_titulos_fic{
+    width: 220px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 800;
+/*    background-color: fuchsia;*/
+}
+
+.titulo_fic{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    background-color: aliceblue;
+    border-bottom: solid 2px #000000;
+}
+
+.contents_registros_fic{
+    width: 100%;
+    height: 87%;
+    overflow-y: auto;
+}
+
+.linha_registros_fic{
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    overflow: hidden;
+/*    background-color: bisque;*/
+}
+
+.caixas_registros_fic{
+    width: 155px;
+    height: auto;
+    min-height: 50px;
+    overflow: hidden;
+    float: left;
+/*    line-height: 50px;*/
+    vertical-align: middle;
+    text-align: center;
+    
+/*    background-color: dimgray;*/
+}
+
+#titulo_turmas_indisp{
+    margin-top: 1%;
+}
+

@@ -1,0 +1,886 @@
+
+.cor1{
+  background-color: #DADADA;
+}
+
+.cor2{
+    background-color:#AFAFAF;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+    font-family: Arial;
+}
+
+.principal{
+  width: 100%;
+  height: 100vh;
+  background-color: #626262;
+}
+
+.cabecalho_container{
+  width: 100%;
+  height: 100px;
+  background-color: #626262;
+}
+
+.cabecalho{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: #2884B2;
+}
+
+.conteudo_container{
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+/*formatação e centralização do cabeçalho*/
+/*DIV para centralizar o conteudo do cabeçalho*/
+.centralizar_cabecalho{
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*div que segura as divs de informações*/
+.content_info_usuarios{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+/*div aqu contem a foto do usuario*/
+.foto_usuario{
+    width: 120px;
+    height: 100px;
+    float: left;
+}
+/*formatação da foto do usuario*/
+.foto_usuario img{
+    width: 120px;
+    height: 100px;
+    border-radius: 100%;
+}
+/*div que contem nome do funcionario*/
+.info_usuario{
+    width: 180px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+/*div que contem o logo da instituição*/
+.logo_instituicao{
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+    float: left;
+    background-image: url(../../imagems/Capturar.PNG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteudo{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: brown;
+}
+
+
+.menu{
+  width: 15%;
+  height: 100%;
+  background-color:#2884B2;
+  float: left;
+}
+
+.dados_principal{
+  width: 85%;
+  height: 100%;
+  background-color: #fff;
+  float: left;
+}
+
+
+/* MENU */
+
+
+.titulo_menu{
+  width: 100%;
+  height: 5%;
+  background-color: #4f9bc1;
+
+}
+
+.titulo_menu p{
+  margin: 0;
+  padding-top: 3%;
+  padding-left: 5%;
+  font-size: 150%;
+  color: #DADADA;
+}
+
+.titulo_menu p a{
+
+  color: #DADADA;
+  text-decoration: none;
+
+}
+
+
+.item_menu{
+  width: 100%;
+  height: 4%;
+  /*border-bottom: 2px solid #2E353F;*/
+}
+
+.item_menu:hover{
+border-left: 5px solid #0400fc;
+width: 98%;
+}
+
+.item_menu p{
+  margin: 0px;
+  padding-left: 20%;
+  font-size: 130%;
+  padding-top: 3%;
+}
+
+.item_menu a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.padrao{
+  width: 100%;
+  height: 100vh;
+  /*background-color: red;*/
+}
+
+
+/* conteudo curso tecnico */
+.titulo h1{
+  margin: 0px;
+  padding-left: 2%;
+  padding-top: 1%;
+  font-size: 40px;
+}
+
+
+.contents{
+    width: 50%;
+    height: 90vh;
+    float: left;
+    margin-top: 15px;
+}
+
+.titulo_contents{
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+/*visualização dos cursos já cadastrados*/
+.content_tabela{
+    width: 95%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linha_titulos{
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+}
+
+.caixas_titulos{
+    width: 150px;
+    height: 70px;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 900;
+}
+
+.content_registros{
+    width: 100%;
+    height: 380px;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+
+.content_registros::-webkit-scrollbar {
+  width:10px;
+  background:#626262;
+
+  } /* configurando scroll */
+.content_registros::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+}
+
+.content_registros::-webkit-scrollbar-thumb {
+   border-radius:10px;
+    background:#288482;
+   }
+
+.linha_registros{
+    width: 100%;
+    height: 80px;
+}
+
+.caixas_registros{
+    width: 150px;
+    height: 80px;
+    min-height: 60px;
+    overflow: hidden;
+    float: left;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.content_form{
+    width: 95%;
+    height: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.content_form::-webkit-scrollbar {
+  width:10px;
+  background:#626262;
+}
+ /* configurando scroll */
+.content_form::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+}
+
+.content_form::-webkit-scrollbar-thumb {
+   border-radius:10px;
+    background:#288482;
+}
+
+/*formulario curso técnico*/
+.linhas_campos{
+    width: 100%;
+    min-height: 170px;
+    height: auto;
+    max-height: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.campos{
+    width: 250px;
+    height: 120px;
+    margin-right: 15px;
+    float: left;
+}
+/*formatação dos campos na Tela de Curso Técnico*/
+#campo_nomeCurso{
+    width: 300px;
+}
+#campo_descricao{
+    width: 300px;
+    height: 200px;
+}
+#campo_duracao{
+    width: 150px;
+}
+#campo_preRequisitos{
+    width: 300px;
+    height: 200px;
+}
+#campo_link{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*formatação dos campos na Tela de Curso CAI*/
+#campo_nomeCursoCai{
+    width: 300px;
+}
+#campo_descricaoCai{
+    width: 300px;
+    height: 200px;
+}
+#campo_duracaoCai{
+    width: 150px;
+}
+#campo_preRequisitosCai{
+    width: 300px;
+    height: 200px;
+}
+#campo_linkCai{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*formatação dos campos na Tela de Noticias*/
+#campo_tituloNoticias{
+    width: 300px;
+}
+#campo_descricaoNoticias{
+    width: 300px;
+    height: 200px;
+}
+
+.campos_datas{
+    width: 200px;
+    height: 120px;
+    margin-right: 15px;
+    float: left;
+}
+.campos_horas{
+    width: 120px;
+    height: 120px;
+    margin-right: 15px;
+    float: left;
+}
+
+.titulos_campos{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+input{
+    margin-left: 10px;
+    width: 90%;
+}
+.inputs_menores{
+    margin-left: 5px;
+}
+textarea{
+    width: 90%;
+    height: 60%;
+    resize: none;
+    margin-left: 10px;
+}
+.botoes{
+    width: 150px;
+    height: 50px;
+}
+
+.segura_upload{
+    width: 90%;
+    height: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+segura_file{
+  width: 30px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.filePost{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  background-image: url(../../imagems/camera.png);
+  background-size: 50px;
+  margin-left: auto;
+  margin-right:50px;
+  margin-top: -10px;
+}
+
+.filePost:hover{
+    cursor: pointer;
+}
+
+.filePost input[type=file]{
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.filePost input[type=file]:hover{
+  cursor: pointer;
+}
+
+.segura_preview{
+  width: 600px;
+  height: 200px;
+  margin: auto;
+}
+
+.preview_img{
+  width: 300px;
+  height: 200px;
+  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preview_img img{
+  width: 100%;
+  height: 200px;
+}
+
+/* VAGAS */
+
+.formVaga{
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  background-color: #fff;
+}
+
+.formVaga2{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  background-color: #fff;
+}
+
+.Seguraimagen{
+  width: 100%;
+  height:50px;
+  padding-top: 1%;
+  margin: auto;
+}
+
+.img{
+  margin: auto;
+  width: 200px;
+  height: auto;
+}
+
+.titulo_vagas{
+  width: 100%;
+  height: 50px;
+
+}
+
+.titleVaga{
+  width: 300px;
+  height: 100%;
+  margin: auto;
+}
+
+.titleVaga h1{
+  text-align: center;
+  margin: 0px;
+  border-bottom: 2px solid #000;
+  font-family: 'Kavivanar', cursive;
+}
+
+.segundo_title{
+  width: 100%;
+  height: 40px;
+  /*padding-top: 2%;*/
+  /*background-color: red;*/
+}
+/*
+.textoTitulo2{
+  width: 100px;
+
+  margin: auto;
+  background-color: blue;
+}*/
+
+.segundo_title h2{
+  text-align: center;
+  color: #008702;
+  text-align: center;
+}
+
+.linhaVaga{
+  width: 100%;
+  height: auto;
+
+  min-height: 30px;
+  overflow: hidden;
+/*background-color: green;*/
+margin-bottom: 5px;
+}
+
+.labelEmpresa{
+  width: 80px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+ padding-top: 20px;
+}
+
+.labelEmpresa2{
+  width: 100px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+ padding-top: 20px;
+}
+
+
+.imputEmpresa{
+  width: 500px;
+  height: 30px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #000;
+  float: left;
+  padding-top: 10px;
+}
+
+.imputEmpresa2{
+  width: 500px;
+  height: 20px;
+  background-color: transparent;
+  border-bottom: 2px solid #000;
+  float: left;
+  padding-top: 10px;
+}
+
+.imputEmpresa3{
+  width: 400px;
+  height: 20px;
+  background-color: transparent;
+  border-bottom: 2px solid #000;
+  float: left;
+  padding-top: 10px;
+}
+
+.imputEmpresa2{
+  width: 500px;
+  height: 20px;
+  background-color: transparent;
+
+  border-bottom: 2px solid #000;
+  float: left;
+  padding-top: 10px;
+}
+
+.dataRegistro{
+  width: 50px;
+  height: 40px;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+ margin-left: 10px;
+ padding-top: 10px;
+}
+
+.dataFormato{
+  width: 100px;
+  height: 50px;
+  float: left;
+  padding-top: 10px;
+  font-weight: bold;
+  color:red;
+}
+
+.labelLocal{
+  width: 200px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+ padding-top: 20px;
+}
+
+.imputLocal{
+  width: 400px;
+  height: 30px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #000;
+  float: left;
+
+}
+
+.imputLocal2{
+  width: 400px;
+  height: 20px;
+  background-color: transparent;
+  border-bottom: 2px solid #000;
+  float: left;
+  padding-top: 20px;
+}
+
+.novaLinha{
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+  overflow: hidden;
+  /*background-color: blue;*/
+}
+
+.labelHorario{
+  width: 230px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+ padding-top: 20px;
+}
+
+.preRequisitos{
+  width: 790px;
+  height: auto;
+  min-height: 100px;
+  border: 2px solid #000;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.titulopreRequisitos{
+  width: 100%;
+  height: 20px;
+  /*background-color: green;*/
+}
+
+.labelRequisitos{
+  width: 400px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+
+}
+
+.areaRequisito{
+  width: 780px;
+  height: 60px;
+  border: none;
+
+
+}
+
+.areaRequisito2{
+  width: 100%;
+  height: auto;
+  min-width: 50px;
+  /*background-color: green;*/
+  border: none;
+  padding-top: 20px;
+
+}
+
+.beneficioCheck{
+  width: 200px;
+  height: 20px;
+  /*background-color: green;*/
+  float: left;
+}
+
+.containerBeneficios{
+  width: 800px;
+  height: 70px;
+  /*background-color: pink;*/
+  padding-top: 50px;
+}
+
+.check{
+  float: left;
+}
+
+.labelBeneficio{
+  padding-left: 10px;
+  width: 150px;
+  margin-left: 10px;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+
+}
+
+.imputBeneficio{
+  width: 200px;
+  height: 20px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #000;
+  float: left;
+
+}
+
+.checkoutro{
+  width: 200px;
+  height: 20px;
+  /*background-color: green;*/
+  float: left;
+  /*background-color: blue;*/
+}
+
+.beneficioCheckoutros{
+  width: 400px;
+  height: 40px;
+  /*background-color: green;*/
+  float: left;
+}
+
+
+.labelBeneficioooutros{
+  padding-left: 10px;
+  width: 50px;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+
+}
+
+
+.labelfinal{
+  width: 330px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+
+}
+
+.labelEmpresafinal{
+  width: 200px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+ padding-top: 20px;
+
+}
+
+.labelEmpresafinalTelefone{
+  width: 110px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+ padding-top: 20px;
+}
+
+.labelEmpresafinalTelefone2{
+  width: 120px;
+  height: auto;
+  float: left;
+  /*background-color: blue;*/
+  color:#00447c;
+ font-weight: bold;
+ padding-top: 20px;
+}
+
+
+
+.seguraFomVaga{
+  width: 100%;
+  height: 75vh;
+  margin: auto;
+  /*background-color: green;*/
+  overflow-y: scroll;
+}
+
+.seguraFomVaga2{
+  width: 100%;
+  height: 60vh;
+  margin: auto;
+  /*background-color: green;*/
+  overflow-y: scroll;
+}
+
+
+.seguraFomVaga::-webkit-scrollbar {
+  width:10px;
+  background:#626262;
+
+  } /* configurando scroll */
+.seguraFomVaga::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+}
+
+.seguraFomVaga::-webkit-scrollbar-thumb {
+   border-radius:10px;
+    background:#288482;
+   }
+
+   .seguraFomVaga2::-webkit-scrollbar {
+     width:10px;
+     background:#626262;
+
+     } /* configurando scroll */
+   .seguraFomVaga2::-webkit-scrollbar-track {
+     background: rgba(0,0,0,0.1);
+   }
+
+   .seguraFomVaga2::-webkit-scrollbar-thumb {
+      border-radius:10px;
+       background:#288482;
+      }
+
+
+   .btnEnviarVaga{
+     width: 50px;
+     height: 30px;
+     margin: auto;
+   }
+
+.segura_botao{
+  width: 50px;
+  height: 30px;
+  margin: auto;
+}
+
+.modalContainer_vagas{
+	width:100%;
+	height:100vh;
+	background: rgba(0, 0, 0, 0.7);
+	position:fixed;
+  /* margin: auto; */
+	display:none;*/
+  z-index: 999;
+
+
+}
+
+.modal_vaga{
+	width:900px;
+	height:100vh;
+	 background-color:#fff;
+	/* margin:auto; */
+
+   margin: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  /* margin-left: 300px; */
+
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+
